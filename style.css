@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.wrapper{
+     /* background: url(standard\ 2.jpg)no-repeat; */
+     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(standard\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.navbar{
+    position: fixed;
+    left: 0%;
+right: 0%;
+height: 80px;
+width: 100%;
+background: rgba(0,0, 0, 0.4);
+justify-content: space-between;
+align-items: center;
+display: flex;
+}
+.navbar .logo{
+    color: white;
+    font-size: 36px;
+    padding: 0 100px;
+    font-family: "Roboto", sans-serif;
+}
+.navbar .logo span{
+    color: black;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0%;
+list-style: none;
+line-height: 80px;
+}
+.navbar ul li a {
+    font-size: 13px;
+    font-family:  "Roboto", sans-serif;
+    color: #fff;
+    padding: 0 13px;
+    text-decoration: none;
+    transition: 0.4s;
+    text-transform: uppercase;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+background: #0090f8;
+border-radius: 2px;
+}
+.wrapper .center{
+    position: absolute;
+    left: 50%;
+    top: 450%;
+    /* right: 20%; */
+    transform: translate(-50%,-50%);
+    font-family:  "Roboto", sans-serif;
+    user-select: none;
+    }
+.wrapper .center h1{
+    color: white;
+    width: 900px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.wrapper .center p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 885px;
+    text-align: center;
+}
+.wrapper .center button{
+    padding: 0px 15px 0px 15px;
+    height: 50px;
+    font-family:  "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+.wrapper .center .btn-ar{
+    margin: 35px 280px;
+}
+.wrapper .center button:hover{
+    background: #0090f8;
+}
